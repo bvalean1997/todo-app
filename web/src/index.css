@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f5f6;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 440px;
+    margin-top: 30px;
+    padding: 35px 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    padding: 6px 8px;
+    font-size: 18px;
+}
+
+.todos {
+    margin: 15px 0 15px 0;
+}
+
+ .todo {
+        display: block;
+        margin-top: 6px;
+        font-size: 18px;
+    }
