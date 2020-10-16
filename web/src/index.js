@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import TransactionsList from "./TransactionsList";
-import "./index.css";
-
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import TodoApp from './TodoApp';
+import './index.css';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <TransactionsList />
+    <TodoApp />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
+
+
